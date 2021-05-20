@@ -126,8 +126,6 @@ DILIGENT_BEGIN_NAMESPACE(Diligent)
 
 		std::memcpy(pDstPixels->GetDataPtr(), ImageData.data(), pDstImgDesc->RowStride * pDstImgDesc->Height);
 
-		LOG_INFO_MESSAGE("tga header loaded");
-
 		return DECODE_TGA_RESULT_OK;
 	}
 
